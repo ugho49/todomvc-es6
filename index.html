@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>TodoMVC</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+    <section class="todoapp">
+        <header class="header">
+            <h1>todos</h1>
+            <input class="new-todo" placeholder="What needs to be done?" autofocus>
+        </header>
+        <section style="display:none" class="main">
+            <ul class="todo-list"></ul>
+            <footer class="footer">
+                <span class="todo-count"></span>
+                <div class="filters">
+                    <a class="filter-all selected" href="#">All</a>
+                    <a class="filter-active" href="#">Active</a>
+                    <a class="filter-completed" href="#">Completed</a>
+                </div>
+                <button class="clear-completed">Clear completed</button>
+            </footer>
+        </section>
+    </section>
+
+    <script src="/build/main.bundle.js"></script>
+    </body>
+</html>
