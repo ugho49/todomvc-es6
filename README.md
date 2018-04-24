@@ -16,4 +16,10 @@ To Run Dev Server :
 npm start
 ```
 
+To run Sonar Scanner in localhost (with docker)
+
+```shell
+sonar-scanner
+```
+
 You can now go to [http://localhost:8080](http://localhost:8080)
